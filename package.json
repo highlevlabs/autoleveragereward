@@ -1,0 +1,26 @@
+{
+  "name": "pumpfun-recycler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node --enable-source-maps dist/index.js",
+    "dev": "nodemon --watch src --exec \"node --loader ts-node/esm src/index.ts\"",
+    "lint": "echo \"(add your linter here)\""
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.95.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "2",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "nodemon": "^3.0.2"
+  }
+}
