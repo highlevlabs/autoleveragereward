@@ -1,0 +1,5 @@
+mkdir pumpfun-recycler && cd pumpfun-recycler
+npm init -y
+npm i typescript ts-node dotenv @solana/web3.js @solana/spl-token node-fetch@2 technicalindicators
+npm i -D @types/node
+npx tsc --init
