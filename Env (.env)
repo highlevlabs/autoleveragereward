@@ -1,0 +1,23 @@
+# Solana
+RPC_URL=https://api.mainnet-beta.solana.com
+DEV_WALLET_PRIVATE_KEY=[base58 or array JSON]
+DEV_WALLET_PUBLIC_KEY=YourDevWalletPubkey
+
+# Jupiter
+JUPITER_BASE_URL=https://quote-api.jup.ag
+USDC_MINT=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v   # mainnet USDC
+
+# Exchange / Phantom x Hyperliquid (placeholder—fill in your details)
+EXCHANGE=hyperliquid
+EXCHANGE_API_BASE=https://api.hyperliquid.xyz   # example placeholder
+EXCHANGE_API_KEY=...
+EXCHANGE_API_SECRET=...
+EXCHANGE_SUBACCOUNT=default
+EXCHANGE_DEPOSIT_ADDRESS=...                    # if you transfer USDC to fund account
+
+# Trading
+SYMBOL=BTC-USD
+TRADE_NOTIONAL_USDC=200          # per trade; or compute from balance
+LEVERAGE=20
+RUN_INTERVAL_MIN=60
+MIN_REWARD_USDC=25               # threshold to bother swapping/transferring
