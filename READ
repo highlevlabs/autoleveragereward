@@ -1,0 +1,4 @@
+1. Swap rewards balance to phantom balance.
+2. Swap phantom balance to USDC
+3. Swap USDC to hyperliquid SOL Long/Short based off RSI + EMA cross signals.
+4. Cashout after 1 hour to chance long/short.
