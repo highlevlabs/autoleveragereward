@@ -1,4 +1,4 @@
-# Solana
+# local everything
 RPC_URL=https://api.mainnet-beta.solana.com
 DEV_WALLET_PRIVATE_KEY=[base58 or array JSON]
 DEV_WALLET_PUBLIC_KEY=YourDevWalletPubkey
